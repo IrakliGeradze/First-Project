@@ -1,0 +1,25 @@
+body{
+    width: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1800px) {
+    body {
+        max-width: 1600px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+    body {
+        width:  90%;
+        max-width: 1700;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1800px) {
+    body {
+        max-width: 1600px;
+    }
+}
